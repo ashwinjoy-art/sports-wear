@@ -1,8 +1,11 @@
 import p_img1 from './p_img1.png'
+import p_img1_1 from './p_img1_1.png'
+import p_img1_2 from './p_img1_2.png'
+import p_img1_3 from './p_img1_3.png'
+import p_img2 from './p_img2.png'
 import p_img2_1 from './p_img2_1.png'
 import p_img2_2 from './p_img2_2.png'
 import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
 import p_img3 from './p_img3.png'
 import p_img4 from './p_img4.png'
 import p_img5 from './p_img5.png'
@@ -98,48 +101,49 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
+        name: "Men Running Breathable Slim fit T-Shirt Dry Granite Grey",
+        brand: "Nike",
+        description: "Slim fit, Soft, breathable men's running T-shirt meant for more comfort when running every day in hot weather. Choose one size bigger than usual.",
+        price: 699,
+        image: [p_img1,p_img1_1,p_img1_2,p_img1_3],
+        category: "Mens",
         subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
+        sizes: ["S", "M", "L", "XL"],
         date: 1716634345448,
         bestseller: true
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+        name: "Men's Shorts For Gym Cotton Rich 500-Khaki",
+        description: "These shorts are a classic wardrobe staple.",
+        price: 399,
+        image: [p_img2,p_img2_1,p_img2_2,p_img2_3],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Bottomwear",
         sizes: ["M", "L", "XL"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
+        name: "Adidas AlphaBounceMen Running Shoes White",
+        description: "This is a lightweight men's running shoes with cushioning for running up to 21km per week.",
+        price: 2220,
         image: [p_img3],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Bottomwear",
         sizes: ["S", "L", "XL"],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Women's Fitness Shorts 520 - Light Mottled Grey",
+        description: "These shorts are designed for all of your activities. Their 240 g/m² fabric guarantees a great fit and keeps you comfy.",
         price: 110,
         image: [p_img4],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Bottomwear",
         sizes: ["S", "M", "XXL"],
         date: 1716621345448,
         bestseller: true
@@ -158,8 +162,8 @@ export const products = [
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Yoga Mat",
+        description: "Beginners for practicing gentle yoga, this soft 6mm mat will help you to ease into learning yoga, its lightweight and easy to carry",
         price: 140,
         image: [p_img6],
         category: "Kids",
@@ -170,8 +174,8 @@ export const products = [
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "Running Socks Run900 Thick Mid-Calf Running Socks - Blue/Red",
+        description: "Our design teams developed these running socks to protect your feet from blisters when you are out running",
         price: 190,
         image: [p_img7],
         category: "Men",
@@ -182,9 +186,9 @@ export const products = [
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
+        name: "Women Gym T-Shirt Basic - Black",
+        description: "A comfortable, breathable, basic fitness T-shirt that's perfect for your favourite sport or a casual outfit!",
+        price: 399,
         image: [p_img8],
         category: "Men",
         subCategory: "Topwear",
@@ -194,8 +198,8 @@ export const products = [
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        name: "ULTRA LITE Men Running Shoes for Beginners- Blue",
+        description: "This is a lightweight men's running shoes with cushioning for running up to 10km per week.",
         price: 100,
         image: [p_img9],
         category: "Kids",
@@ -206,12 +210,12 @@ export const products = [
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
+        name: "Men's golf 100% cotton short-sleeved polo shirt MW100 White",
+        description: "Designed by our INESIS teams, this cotton short-sleeved polo shirt lets you play golf comfortably in temperatures between 10°C and 20°C.",
+        price: 549,
         image: [p_img10],
         category: "Men",
-        subCategory: "Bottomwear",
+        subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716622235448,
         bestseller: false

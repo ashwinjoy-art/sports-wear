@@ -199,7 +199,7 @@ export const products = [
     {
         _id: "aaaai",
         name: "ULTRA LITE Men Running Shoes for Beginners- Blue",
-        description: "This is a lightweight men's running shoes with cushioning for running up to 10km per week.",
+        description: "This is a lightweight men's running shoes with cushioning for running up to 10km per week.estSeller",
         price: 100,
         image: [p_img9],
         category: "Kids",

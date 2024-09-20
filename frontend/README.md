@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 # npm dev start
+# https://www.npmjs.com/package/react-toastify

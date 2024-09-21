@@ -10,7 +10,7 @@ const About = () => {
         <Title text1={"ABOUT"} text2={'US'}/>
       </div>
       <div className='my-10 flex flex-col md:flex-row gap-16'>
-        <img className='w-full md:max-w-[450px]' src={assets.about_img} alt=''/>
+        <img className='w-full md:max-w-[680px]' src={assets.about_img} alt=''/>
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
           <p>Sports Wear was born out of a passion for sports and a commitment to helping you excel in your athletic journey. Our high-performance 
             apparel blends cutting-edge technology with sleek, stylish designs, ensuring you feel confident and prepared for any challenge. Whether 

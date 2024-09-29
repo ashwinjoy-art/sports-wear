@@ -32,3 +32,24 @@
 -> Refer More in Documentation
 
 # npm start server
+
+# API endpoint -> API endpoint refers to a specific URL (or path) on your server where it listens for requests and provides a  response.
+    app.get('/',(req,res)=>{
+        res.send("API Working")
+    })
+
+    # app.get('/', (req, res) => { ... }): This defines a route that listens for GET requests at the root URL '/'.
+    # res.send("API Working"): When a request is received at this endpoint, it sends back the response "API Working" to the client.
+
+# mongodb atlas
+    create a project and a cluster in mongodb atlas
+        when we create mongodb atlas don't give '@' simple in the password.
+    select 512 mb free server and select aws
+    select network in side panel and allow all ip address to access
+
+# mongodb string"mongodb+srv://ashwinjoy:wBJm7h37OQJlH98y@cluster0.y4h2g.mongodb.net/"
+
+# cloudinary 
+    https://cloudinary.com/
+    961449169725987
+    https://console.cloudinary.com/settings/c-659aee1edf32c33b1c9b53d31827b4/api-keys

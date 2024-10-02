@@ -10,17 +10,13 @@ const About = () => {
         <Title text1={"ABOUT"} text2={'US'}/>
       </div>
       <div className='my-10 flex flex-col md:flex-row gap-16'>
-        <img className='w-full md:max-w-[680px]' src={assets.about_img} alt=''/>
+        <img className='w-full md:max-w-[580px]' src={assets.about_img} alt=''/>
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
           <p>Sports Wear was born out of a passion for sports and a commitment to helping you excel in your athletic journey. Our high-performance 
             apparel blends cutting-edge technology with sleek, stylish designs, ensuring you feel confident and prepared for any challenge. Whether 
             you`re at the gym or exploring the outdoors, our gear is crafted to support your active lifestyle with durability and comfort. We believe 
             in creating sportswear for those who live and breathe sports, empowering you to elevate your fitness experience. Unleash your potential 
             with gear designed for peak performance.</p>
-            <p>Unleash your potential with our expertly crafted sportswear that supports every movement. From breathable fabrics to ergonomic 
-            designs, our apparel is tailored for optimal performance and flexibility. Ideal for athletes and casual enthusiasts alike, our 
-            collection keeps you motivated and focused on your goals. Shop now to redefine your active wardrobe!
-          </p>
           <b className='text-gray-800'>Our Mission</b>
           <p>Our mission is to inspire and support athletes and fitness enthusiasts of all levels by providing top-tier sportswear that enhances
             both performance and confidence. We are committed to offering innovative, stylish, and durable products that allow you to push your 

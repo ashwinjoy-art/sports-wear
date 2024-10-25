@@ -250,7 +250,7 @@ export const products = [
         description: "Beginners for practicing gentle yoga, this soft 6mm mat will help you to ease into learning yoga, its lightweight and easy to carry",
         price: 140,
         image: [p_img6],
-        category: "Kids",
+        category: "Unisexual",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,

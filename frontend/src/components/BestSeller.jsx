@@ -11,7 +11,14 @@ const BestSeller = () => {
   useEffect(()=>{
     const bestProduct=products.filter((item)=>(item.bestseller))
     setBestSeller(bestProduct.slice(0,5))
-  },[])
+  },[products])
+
+  useEffect(() => {
+    console.log(products); // Check if products are loading
+    const bestProduct = products.filter((item) => (item.bestseller));
+    setBestSeller(bestProduct.slice(0, 5));
+}, [products]);
+
 
   return (
     <div className='my-10'>

@@ -12,7 +12,7 @@ const Verify = () => {
    const success = searchParams.get('success')
    const orderId = searchParams.get('orderId')
 
-   const verifyPayment = async (params) => {
+   const verifyPayment = async () => {
         try {
             if (!token) {
                 return null

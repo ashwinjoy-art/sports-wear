@@ -6,7 +6,7 @@ import { toast } from 'react-toastify'
 
 const Verify = () => {
 
-   const {navigate, token,setCartItems} = useContext(ShopContext)
+   const {navigate, token,setCartItems,backendUrl} = useContext(ShopContext)
    const [searchParams,setSearchParams] = useSearchParams()
 
    const success = searchParams.get('success')

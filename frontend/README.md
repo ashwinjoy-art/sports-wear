@@ -15,4 +15,8 @@ Currently, two official plugins are available:
 
 # stripe card number
 
-    4000003560000008
+    4000 0035 6000 0008
+
+# razorpay card number
+
+    4718 6091 0820 4366

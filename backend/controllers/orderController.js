@@ -157,7 +157,7 @@ const placeOrderRazorPay = async (req,res) => {
 const verifyRazorpay = async (req,res) => {
     try {
         const {userId, razorpay_order_id} = req.body
-        const orderInfo = await razorpay.orders.fetch(razorpay_order_id)
+        const orderInfo = await razorpayInstance.orders.fetch(razorpay_order_id)
         if (orderInfo.status === 'paid') {
             await orderModel.findByIdAndUpdate(orderInfo.receipt,{payment:true});
             await userModel.findByIdAndUpdate(userId,{cartData:{}}) //---------Clear the Cart data of User ----------

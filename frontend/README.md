@@ -10,3 +10,9 @@ Currently, two official plugins are available:
 
 # npm dev start
 # https://www.npmjs.com/package/react-toastify
+
+
+
+# stripe card number
+
+    4000003560000008

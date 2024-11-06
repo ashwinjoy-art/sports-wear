@@ -118,7 +118,7 @@ const Add = ({token}) => {
       </div>
       <div>
         <p className='mb-2'>Product Sizes</p>
-        <div className='flex gap-3'>
+        <div className='flex gap-3 flex-wrap'>
           <div onClick={()=>setSizes(prev => prev.includes("S") ? prev.filter(item => item !=="S"): [...prev,"S"])} >
             <p className={`${sizes.includes("S") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>S</p>
           </div>
@@ -133,6 +133,23 @@ const Add = ({token}) => {
           </div>
           <div onClick={()=>setSizes(prev => prev.includes("XXL") ? prev.filter(item => item !=="XXL"): [...prev,"XXL"])}>
             <p className={`${sizes.includes("XXL") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>XXL</p>
+          </div>
+          <div className="w-full flex gap-3 flex-wrap">
+            <div onClick={()=>setSizes(prev => prev.includes("7") ? prev.filter(item => item !=="7"): [...prev,"7"])}>
+              <p className={`${sizes.includes("7") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>7</p>
+            </div>
+            <div onClick={()=>setSizes(prev => prev.includes("8") ? prev.filter(item => item !=="8"): [...prev,"8"])}>
+              <p className={`${sizes.includes("8") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>8</p>
+            </div>
+            <div onClick={()=>setSizes(prev => prev.includes("9") ? prev.filter(item => item !=="9"): [...prev,"9"])}>
+              <p className={`${sizes.includes("9") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>9</p>
+            </div>
+            <div onClick={()=>setSizes(prev => prev.includes("10") ? prev.filter(item => item !=="10"): [...prev,"10"])}>
+              <p className={`${sizes.includes("10") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>10</p>
+            </div>
+            <div onClick={()=>setSizes(prev => prev.includes("11") ? prev.filter(item => item !=="11"): [...prev,"11"])}>
+              <p className={`${sizes.includes("11") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>11</p>
+            </div>
           </div>
         </div>
       </div>

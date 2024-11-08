@@ -14,6 +14,7 @@ const Add = ({token}) => {
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [price, setPrice] = useState("");
+    const [quantity, setQuantity] = useState("");
     const [category, setCategory] = useState("Select");
     const [subCategory, setSubCategory] = useState("Select");
     const [bestseller, setBestseller] = useState(false);
@@ -28,6 +29,7 @@ const Add = ({token}) => {
       formData.append("name",name)
       formData.append("description",description)
       formData.append("price",price)
+      formData.append("quantity",quantity)
       formData.append("category",category)
       formData.append("subCategory",subCategory)
       formData.append("bestseller",bestseller)
@@ -115,6 +117,10 @@ const Add = ({token}) => {
           <p className='mb-2'>Product Price</p>
           <input onChange={(e)=>setPrice(e.target.value)} value={price} className='w-full px-3 py-2 sm:w-[120px]' type='Number' placeholder=' 0'/>
         </div>
+        <div>
+          <p className='mb-2'>Product Quantity</p>
+          <input onChange={(e)=>setQuantity(e.target.value)} value={quantity} className='w-full px-3 py-2 sm:w-[120px]' type='Number' placeholder=' 0'/>
+        </div>
       </div>
       <div>
         <p className='mb-2'>Product Sizes</p>
@@ -149,6 +155,11 @@ const Add = ({token}) => {
             </div>
             <div onClick={()=>setSizes(prev => prev.includes("11") ? prev.filter(item => item !=="11"): [...prev,"11"])}>
               <p className={`${sizes.includes("11") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>11</p>
+            </div>
+          </div>
+          <div>
+            <div onClick={()=>setSizes(prev => prev.includes("Normal") ? prev.filter(item => item !=="Normal"): [...prev,"Normal"])}>
+              <p className={`${sizes.includes("Normal") ? "bg-black text-white" : "bg-gray-300 text-black" } px-3 py-1 cursor-pointer`}>Normal</p>
             </div>
           </div>
         </div>

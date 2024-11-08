@@ -76,6 +76,43 @@ const Product = () => {
           </div>
         </div>
       </div>
+      <div className="mt-10 w-1/4">
+  <h1 className="text-2xl font-medium mb-4">Size Details</h1>
+  <div className="overflow-x-auto border border-gray-200 shadow-sm rounded-lg">
+    <table className="min-w-full table-auto text-left">
+      <thead>
+        <tr className="bg-gray-100">
+          <th className="border-b px-6 py-3 text-sm font-semibold">Size</th>
+          <th className="border-b px-6 py-3 text-sm font-semibold">Inch (Range)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr className="border-b">
+          <td className="px-6 py-3 text-sm">S</td>
+          <td className="px-6 py-3 text-sm">28" - 30"</td>
+        </tr>
+        <tr className="border-b">
+          <td className="px-6 py-3 text-sm">M</td>
+          <td className="px-6 py-3 text-sm">30" - 32"</td>
+        </tr>
+        <tr className="border-b">
+          <td className="px-6 py-3 text-sm">L</td>
+          <td className="px-6 py-3 text-sm">32" - 34"</td>
+        </tr>
+        <tr className="border-b">
+          <td className="px-6 py-3 text-sm">XL</td>
+          <td className="px-6 py-3 text-sm">34" - 36"</td>
+        </tr>
+        <tr className="border-b">
+          <td className="px-6 py-3 text-sm">XXL</td>
+          <td className="px-6 py-3 text-sm">36" - 38"</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
       {/* --------Description & Review Section-------- */}
       <div className='mt-20'>
         <div className='flex'>

@@ -16,13 +16,7 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(
-    cors({
-      origin: 'https://sports-wear-frontend.vercel.app',
-      methods: 'GET, POST, PUT, DELETE, OPTIONS',
-      allowedHeaders: 'Content-Type, Authorization',
-    })
-  );
+app.use(cors())
 
 // API endpoint
 app.use('/api/user',userRouter)
